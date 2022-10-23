@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos com HTML%</title>
+</head>
+<body>
+    <h1>Inserido videos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu proprio servidos</p>
+    <video width="560" poster="imagens/capa_do_video.png" controls loop> <!--o arquivo mais leve primeiro-->
+        <!--
+        Não esquecer de colocar /video em 'type'
+        -->
+       <source src="midias/video.webm" type="video/webm">
+       <source src="midias/video.m4v" type="video/m4v">
+       <source src="midias/video.mp4" type="video/mp4">
+       <source src="midias/video.ogv" type="video/ogg">
+       <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+    </video>
+    <h1>Inserido videos de fora(youtube)</h1>
+    <p>Ao clicar em 'incorporar', depois de compartilhar no youtube, voce pode indexar um video no seu site.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--
+        e se eu colocar um video do youtube como não-listado?
+        o cara ainda tem acesso, mas não pela busca do youtube.
+
+
+
+    -->
+</body>
+</html>

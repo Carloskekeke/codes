@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body{ background-color: rgb(183, 248, 183); 
+    font-family: Arial, Helvetica, sans-serif;}
+h1{color: palevioletred;}
+h2{color: rgb(43, 143, 49);}
+#principal{ text-align: center; background-color: lightpink; color: green;}
+.basico{color:rgb(110, 228, 41);font-weight: bold;}
+.intermediario{color: rgb(226, 223, 43);font-weight: bold;}
+.avancado{color: rgb(228, 41, 41);font-weight: bold;}
+.trecho{color: purple; font-weight: bolder;}
+.duasclass{background-color: aqua;}
