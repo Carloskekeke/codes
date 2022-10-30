@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white
+            ;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        .num{
+            text-align: right;
+        }
+        caption{
+            color: green;
+        }
+        
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <caption>
+            População de alguns estados brasileiros
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">Poulação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.433.957</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>Quase 111.400.000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore architecto unde vel sunt laboriosam placeat explicabo dicta commodi ratione dolorum deleniti, dolor quaerat similique sint quas, perspiciatis, amet tenetur nihil.
+        Quam dignissimos atque aperiam quas doloremque, accusantium dicta cupiditate odio aut nesciunt. Necessitatibus explicabo rerum ea aliquid, temporibus tempore, provident at consequuntur consequatur, consectetur assumenda quia vel neque veritatis error.
+        Et placeat neque voluptate fuga qui aperiam rem id eligendi corporis a animi fugiat temporibus, molestias, quo amet ab iusto adipisci. Tenetur nemo nulla recusandae provident! Velit impedit ab molestiae?
+        Quod id consequatur natus asperiores, in reiciendis quia sunt odit alias culpa, dolor at repellat molestiae itaque ducimus libero, dignissimos animi optio aperiam nam temporibus atque. Sint repudiandae earum molestias.
+        Debitis alias, saepe harum sunt sit corrupti repellendus eveniet. Asperiores facere, repudiandae perferendis tempore impedit voluptate consequuntur beatae qui dolor deleniti a aut nihil dicta minima soluta eum placeat excepturi?
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore architecto unde vel sunt laboriosam placeat explicabo dicta commodi ratione dolorum deleniti, dolor quaerat similique sint quas, perspiciatis, amet tenetur nihil.
+        Quam dignissimos atque aperiam quas doloremque, accusantium dicta cupiditate odio aut nesciunt. Necessitatibus explicabo rerum ea aliquid, temporibus tempore, provident at consequuntur consequatur, consectetur assumenda quia vel neque veritatis error.
+        Et placeat neque voluptate fuga qui aperiam rem id eligendi corporis a animi fugiat temporibus, molestias, quo amet ab iusto adipisci. Tenetur nemo nulla recusandae provident! Velit impedit ab molestiae?
+        Quod id consequatur natus asperiores, in reiciendis quia sunt odit alias culpa, dolor at repellat molestiae itaque ducimus libero, dignissimos animi optio aperiam nam temporibus atque. Sint repudiandae earum molestias.
+        Debitis alias, saepe harum sunt sit corrupti repellendus eveniet. Asperiores facere, repudiandae perferendis tempore impedit voluptate consequuntur beatae qui dolor deleniti a aut nihil dicta minima soluta eum placeat excepturi?
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore architecto unde vel sunt laboriosam placeat explicabo dicta commodi ratione dolorum deleniti, dolor quaerat similique sint quas, perspiciatis, amet tenetur nihil.
+        Quam dignissimos atque aperiam quas doloremque, accusantium dicta cupiditate odio aut nesciunt. Necessitatibus explicabo rerum ea aliquid, temporibus tempore, provident at consequuntur consequatur, consectetur assumenda quia vel neque veritatis error.
+        Et placeat neque voluptate fuga qui aperiam rem id eligendi corporis a animi fugiat temporibus, molestias, quo amet ab iusto adipisci. Tenetur nemo nulla recusandae provident! Velit impedit ab molestiae?
+        Quod id consequatur natus asperiores, in reiciendis quia sunt odit alias culpa, dolor at repellat molestiae itaque ducimus libero, dignissimos animi optio aperiam nam temporibus atque. Sint repudiandae earum molestias.
+        Debitis alias, saepe harum sunt sit corrupti repellendus eveniet. Asperiores facere, repudiandae perferendis tempore impedit voluptate consequuntur beatae qui dolor deleniti a aut nihil dicta minima soluta eum placeat excepturi?
+    </p>
+</body>
+</html>
