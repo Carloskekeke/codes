@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            padding: 8px;
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td, th{
+            padding: 8px;
+            border: 1px solid black;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        .yellow{
+            background-color: yellow;
+        }
+        .red{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="yellow">
+            <col class="red" span="2">
+            <col class="yellow">
+        </colgroup>
+        <caption>
+            Cadastro
+        </caption>
+        <tr>
+            <th scope="col">
+                Nome
+            </th>
+            <th scope="col">
+                Sexo
+            </th>
+            <th scope="col">
+                Idade
+            </th>
+            <th scope="col">
+                Profissão
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Ana Paula
+            </td>
+            <td>
+                F
+            </td>
+            <td>
+                25
+            </td>
+            <td>
+                Jornalista
+            </td>
+        </tr> 
+        <tr>
+            <Td>
+                Cláudio
+            </Td>
+            <Td>
+                M
+            </Td>
+            <Td>
+                25
+            </Td>
+            <Td>
+                Programador
+            </Td>
+        </tr>
+        <tr>
+            <Td>
+                Gusavo
+            </Td>
+            <Td>
+                M
+            </Td>
+            <Td>
+                42
+            </Td>
+            <Td>
+                Professor
+            </Td>
+        </tr>
+        <tr>
+            <Td>
+                hélio
+            </Td>
+            <Td>
+                M   
+            </Td>
+            <Td>
+                19
+            </Td>
+            <Td>
+                Vendedor
+            </Td>
+        </tr>
+        <tr>
+            <Td>
+                Maria
+            </Td>
+            <Td>
+                F
+            </Td>
+            <Td>
+                39
+            </Td>
+            <Td>
+                Médica
+            </Td>
+        </tr>
+        <tr>
+            <Td>
+                Otávio
+            </Td>
+            <Td>
+                M
+            </Td>
+            <Td>
+                22
+            </Td>
+            <Td>
+                Nutricionista
+            </Td>
+        </tr>
+    </table>
+</body>
+</html>
